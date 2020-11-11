@@ -1,6 +1,6 @@
 <?php
 
-echo 11;
+// echo 11;
 require 'sakura/bootstrap.php';
 require 'sakura/MiniBlogApplication.php';
 

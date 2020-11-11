@@ -36,7 +36,7 @@ class PostController extends Controller
 
     function aboutAction()
     {
-        echo 111;
+        // echo 111;
         $statuses = $this->db_manager->get('Status');
             // ->fetchAllPersonalArchivesByUserId($user['id']);  //エラーが出てheaderが消えてしまう
 

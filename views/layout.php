@@ -11,7 +11,7 @@
   <title>Clean Blog - Start Bootstrap Theme</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="sakura//vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!-- ../vendor/bootstrap/css/bootstrap.min.css -->
+  <link href="sakura/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!-- ../vendor/bootstrap/css/bootstrap.min.css -->
   <!-- Custom fonts for this template -->
   <link href="sakura/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">  <!-- ../vendor/fontawesome-free/ -->
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -38,7 +38,7 @@
             <a class="nav-link" href="<?php echo $base_url; ?>/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $base_url; ?>/post/about">About</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>index.php/post/about">About</a>
             <!-- <a class="nav-link" href="http://153.126.199.231/post/about">About</a> -->
           </li>
           <li class="nav-item">
@@ -102,9 +102,9 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="sakura/vendor/jquery/jquery.min.js 
+  <script src="vendor/jquery/jquery.min.js 
 "></script>
-  <script src="sakura/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
   <!-- Contact Form JavaScript -->
   <script src="sakura/js/jqBootstrapValidation.js"></script>
