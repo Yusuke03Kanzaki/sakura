@@ -1,5 +1,6 @@
 <?php
 
+echo 11;
 require 'task/bootstrap.php';
 require 'task/MiniBlogApplication.php';
 
