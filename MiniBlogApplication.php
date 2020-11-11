@@ -26,6 +26,8 @@ class MiniBlogApplication extends Application
                 =>array('controller' => 'post', 'action' => 'index'),
             '/post/about'
                 =>array('controller' => 'post', 'action' => 'about'),
+            '/index.php/post/about'
+                =>array('controller' => 'post', 'action' => 'about'), //これは修正して消したい
             '/post/sample'
                 =>array('controller' => 'post', 'action' => 'sample'),
             '/post/contact'

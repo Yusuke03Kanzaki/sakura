@@ -38,7 +38,7 @@
             <a class="nav-link" href="<?php echo $base_url; ?>/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $base_url; ?>index.php/post/about">About</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>/index.php/post/about">About</a>
             <!-- <a class="nav-link" href="http://153.126.199.231/post/about">About</a> -->
           </li>
           <li class="nav-item">
@@ -102,9 +102,9 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js 
+  <script src="sakura/vendor/jquery/jquery.min.js 
 "></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+  <script src="sakura/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
   <!-- Contact Form JavaScript -->
   <script src="sakura/js/jqBootstrapValidation.js"></script>
