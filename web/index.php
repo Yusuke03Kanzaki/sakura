@@ -1,10 +1,9 @@
 <?php
 
 echo 11;
-require 'task/bootstrap.php';
-require 'task/MiniBlogApplication.php';
+require 'sakura/bootstrap.php';
+require 'sakura/MiniBlogApplication.php';
 
-// $app = new MiniBlogApplication(true);  //trueがデバックモード
 $app = new MiniBlogApplication(true);  //trueがデバックモード
 
 $app->run();
