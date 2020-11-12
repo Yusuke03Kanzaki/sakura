@@ -1,5 +1,5 @@
 <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/about-bg.jpg')">
+  <header class="masthead" style="background-image: url('http://153.126.199.231/sakura/img/about-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">

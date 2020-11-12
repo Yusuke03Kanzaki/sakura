@@ -11,14 +11,16 @@
   <title>Clean Blog - Start Bootstrap Theme</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="sakura/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!-- ../vendor/bootstrap/css/bootstrap.min.css -->
+  <!-- <link href="sakura/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="http://153.126.199.231/sakura/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
   <!-- Custom fonts for this template -->
-  <link href="sakura/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">  <!-- ../vendor/fontawesome-free/ -->
+  <link href="http://153.126.199.231/sakura/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">  <!-- ../vendor/fontawesome-free/ -->
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="sakura/css/clean-blog.min.css " rel="stylesheet">  <!-- .. -->
+  <link href="http://153.126.199.231/sakura/css/clean-blog.min.css " rel="stylesheet">  <!-- .. -->
 
 </head>
 
@@ -42,16 +44,16 @@
             <!-- <a class="nav-link" href="http://153.126.199.231/post/about">About</a> -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $base_url; ?>/post/sample">Sample</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>/index.php/post/sample">Sample</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $base_url; ?>/post/contact">Contact</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>/index.php/post/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $base_url; ?>/post/post_index">Post</a> <!--リンク先でで投稿処理をする-->
+            <a class="nav-link" href="<?php echo $base_url; ?>/index.php/post/post_index">Post</a> <!--リンク先でで投稿処理をする-->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $base_url; ?>/post/image">Image</a>
+            <a class="nav-link" href="<?php echo $base_url; ?>/index.php/post/image">Image</a>
           </li>
         </ul>
       </div>
@@ -102,16 +104,16 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="sakura/vendor/jquery/jquery.min.js 
+  <script src="http://153.126.199.231/sakura/vendor/jquery/jquery.min.js 
 "></script>
-  <script src="sakura/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+  <script src="http://153.126.199.231/sakura/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
   <!-- Contact Form JavaScript -->
-  <script src="sakura/js/jqBootstrapValidation.js"></script>
+  <script src="http://153.126.199.231/sakura/js/jqBootstrapValidation.js"></script>
   <!-- <script src="http://localhost/task/js/contact_me.js"></script> -->  <!--postAction確認のため一時的に無効化 -->
 
   <!-- Custom scripts for this template -->
-  <script src="sakura/js/clean-blog.min.js"></script>
+  <script src="http://153.126.199.231/sakura/js/clean-blog.min.js"></script>
 
 </body>
 
