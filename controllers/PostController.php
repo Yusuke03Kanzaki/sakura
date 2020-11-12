@@ -9,7 +9,7 @@ class PostController extends Controller
         $statuses = $this->db_manager->get('Post')
             ->fetchAllPersonalArchivesByUserId();
 
-        // print_r($statuses);
+        print_r($statuses);
         // var_dump($statuses);
          return $this->render(array(
              'statuses'  => $statuses,
@@ -219,6 +219,8 @@ class PostController extends Controller
     // 削除
     function deletionAction()
     {
+        $statuses = $this->db_manager->get('Status');
+
         $id = $this->request->getReferer();
 
         $count = strrpos($id, '/');
@@ -231,7 +233,7 @@ class PostController extends Controller
         // ));
 
         return $this->render(array(
-      
+            'statuses'  => $statuses,
         ));
     }
 }

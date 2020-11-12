@@ -140,7 +140,7 @@ class Request
         // var_dump(strlen($request_uri));
 
         $path_info = (string)substr($request_uri, strlen($base_url));  //
-        print_r($path_info);
+        // print_r($path_info);
 
         return $path_info;
     }
